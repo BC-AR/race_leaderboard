@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Leaderboard</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/_style.css">
+    </head>
+    <body>
+        <div class="banner">
+            <div class="checkerboard-banner">
+
+            </div>
+            <h1 id="title-text">
+                <i class="bi bi-flag flag-left"></i>
+                Race Times
+                <i class="bi bi-flag flag"></i>
+            </h1>    
+        </div>
+        <main id="content-area">
+            <div id="header">
+                <h2>Circuit: NAME</h2>
+            </div>
+            <div id="leaderboard">
+                <!--Header-->
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item leaderboard-cell position-cell-border">
+                        <h3>Position</h3>
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+                        <h3>Name</h3>
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+                        <h3>Time</h3>
+                    </li>
+                </ul>
+                <!--Entries-->
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item leaderboard-cell position-cell-border">
+                        <h4 class="position first">1</h4>
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                </ul>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item leaderboard-cell position-cell-border">
+                        <h4 class="position second">2</h4>
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                </ul>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item leaderboard-cell position-cell-border">
+                        <h4 class="position third">3</h4>
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                </ul>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item leaderboard-cell position-cell-border">
+                        <h4 class="position">4</h4>
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                </ul>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item leaderboard-cell position-cell-border">
+                        <h4 class="position">5</h4>
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                </ul>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item leaderboard-cell position-cell-border">
+                        <h4 class="position">6</h4>
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                </ul>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item leaderboard-cell position-cell-border">
+                        <h4 class="position">7</h4>
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                </ul>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item leaderboard-cell position-cell-border">
+                        <h4 class="position">8</h4>
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                </ul>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item leaderboard-cell position-cell-border">
+                        <h4 class="position">9</h4>
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                </ul>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item leaderboard-cell position-cell-border">
+                        <h4 class="position">10</h4>
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                    <li class="list-group-item leaderboard-cell">
+
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <footer class="banner-bottom">
+            <button type="button" class="btn add-time-button" data-bs-toggle="modal" data-bs-target="#addNewTime"><p>Add New Time</p></button>
+
+            <!--Modal-->
+            <div class="modal fade" id="addNewTime" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content add-time-modal">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLabel">Add New Time</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="">
+                                <div class="mb-3">
+                                    <label for="racer-name" class="col-form-label">Racer</label>
+                                    <input type="text" class="form-control" id="racer-name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="racer-time" class="col-form-label">Time</label>
+                                    <input type="text" class="form-control" id="racer-time">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn close-button" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn save-button">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="" async defer></script>
+    </body>
+</html>
